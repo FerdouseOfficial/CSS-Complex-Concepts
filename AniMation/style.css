@@ -1,5 +1,28 @@
-.main{
-    height: 300px;
-    width: 300px;
-    background-color: rebeccapurple;
+@keyframes ColorChanger {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: pink;
+  }
+  50% {
+    background-color: yellow;
+  }
+  75% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
+}
+
+.main {
+  height: 300px;
+  width: 300px;
+  background-color: rebeccapurple;
+  /* animation-name: ColorChanger;
+  animation-duration: 5s; */
+
+  /* By using short form */
+  animation: ColorChanger 5s ;
 }
