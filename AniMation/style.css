@@ -25,7 +25,14 @@
     top: 0px;
   }
 }
-
+@keyframes TruckAnimation {
+  0% {
+    left: -200px;
+  }
+  100% {
+    left: 120%;
+  }
+}
 .main {
   height: 300px;
   width: 300px;
@@ -36,5 +43,14 @@
   animation-duration: 5s; */
 
   /* By using short form */
-  animation: ColorChanger 5s 0s infinite linear ;
+  animation: ColorChanger 5s 0s infinite linear;
+}
+.Truck img {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+  position: fixed;
+  bottom: 0;
+  left: -200px;
+  animation: TruckAnimation 4s linear 0s infinite;
 }
