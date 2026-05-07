@@ -1,28 +1,40 @@
 @keyframes ColorChanger {
   0% {
     background-color: red;
+    top: 0px;
+    left: 0px;
   }
   25% {
     background-color: pink;
+    top: 0px;
+    left: 300px;
   }
   50% {
     background-color: yellow;
+    top: 300px;
+    left: 300px;
   }
   75% {
     background-color: blue;
+    left: 0px;
+    top: 300px;
   }
   100% {
     background-color: green;
+    left: 0px;
+    top: 0px;
   }
 }
 
 .main {
   height: 300px;
   width: 300px;
+  position: relative;
   background-color: rebeccapurple;
-  /* animation-name: ColorChanger;
+  border-radius: 5px;
+  /* animation-name: ColorChanger; 
   animation-duration: 5s; */
 
   /* By using short form */
-  animation: ColorChanger 5s ;
+  animation: ColorChanger 5s 0s infinite linear ;
 }
