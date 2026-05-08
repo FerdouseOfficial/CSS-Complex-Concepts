@@ -1,0 +1,9 @@
+h1{
+    transition: all 0.5s;
+}
+
+h1:hover{
+    color: green;
+    letter-spacing: 10px;
+    font-size: 40px;
+}
