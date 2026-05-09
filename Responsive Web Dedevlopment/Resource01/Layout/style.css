@@ -13,23 +13,29 @@ body {
 #parent{
     height: 100%;
     width: 100%;
-    background-color: rgb(32, 65, 54);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #111;
 }
+
 .child1{
     height: 200px;
     width: 200px;
-    background-color: rgb(117, 38, 54);
+    background-color: beige;
 }
+
 .child2{
     height: 200px;
     width: 200px;
-    background-color: rgb(168, 86, 102);
+    background-color: rgb(53, 27, 80);
 }
+
 .child3{
     height: 200px;
     width: 200px;
-    background-color: rgb(92, 69, 74);
+    background-color: rgb(97, 97, 77);
+}
+
+.child4{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(243, 243, 102);
 }
