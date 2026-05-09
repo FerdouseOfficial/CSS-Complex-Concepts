@@ -10,32 +10,32 @@ body {
   width: 100%;
 }
 
-#parent{
-    height: 100%;
-    width: 100%;
-    background-color: #111;
+#parent {
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+  display: grid;
+  /* grid-template-columns: repeat(4,1fr); */
+  /* grid-template-rows: repeat(4,1fr); */
+  /* grid-auto-flow: dense; */
 }
 
-.child1{
-    height: 200px;
-    width: 200px;
-    background-color: beige;
+.child1 {
+  background-color: beige;
+  border: 2px solid royalblue;
 }
 
-.child2{
-    height: 200px;
-    width: 200px;
-    background-color: rgb(53, 27, 80);
+.child2 {
+  background-color: rgb(53, 27, 80);
+  border: 2px solid royalblue;
 }
 
-.child3{
-    height: 200px;
-    width: 200px;
-    background-color: rgb(97, 97, 77);
+.child3 {
+  background-color: rgb(97, 97, 77);
+  border: 2px solid royalblue;
 }
 
-.child4{
-    height: 200px;
-    width: 200px;
-    background-color: rgb(243, 243, 102);
+.child4 {
+  background-color: rgb(243, 243, 102);
+  border: 2px solid royalblue;
 }
