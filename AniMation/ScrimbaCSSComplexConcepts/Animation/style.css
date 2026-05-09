@@ -1,8 +1,8 @@
-body {
+.anime{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 70vh;
 }
 
 @keyframes Rotate {
@@ -18,6 +18,6 @@ body {
   height: 150px;
   width: 150px;
   background-color: bisque;
-  border-radius: 40%;
-  animation: Rotate 2s linear infinite;
+  border-radius: 10px;
+  animation: Rotate 0.1s linear infinite;
 }
